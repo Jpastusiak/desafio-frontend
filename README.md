@@ -9,9 +9,9 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. Clone o repositório:
 
-   git clone https://github.com/Jpastusiak/Desafio-frontend-Afya.git
+   git clone https://github.com/Jpastusiak/desafio-frontend.git
 
-   cd Desafio-frontend-Afya
+   cd desafio-frontend
 
 3. Instale as dependências:
 
