@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    margin: 0%;
+}
+
+/* Navbar */
+.navbar {
+    height: 3.2vh;
+    padding: 3.4vh 0;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.navbar .icon_img {
+    height: 3.2vh;
+}
+.navbar .back_img {
+    height: 3.2vh;
+    position: absolute;
+    left: 5%;
+}
+
+/* Main: Checkout card */
+.checkout_card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 72px 0;
+    color: #151516;
+}
+@media (max-width: 1080px) {
+    .checkout_card{
+        flex-direction: column-reverse;
+        gap: 30px;
+        align-items: center;
+    }
+}
+
+/* Payment data section*/
+.payment_data_section{
+    width: 330px;
+    text-align: center;
+    color: #151516;
+}
+.payment_data_section legend{
+    text-align: left;
+    font-size: 20px;
+}
+.payment_data_section p{
+    text-align: left;
+    font-size: 16px;
+}
+.cards_img{
+    width: 215px;
+    margin: 2.2% 0;
+}
+
+/* Fieldset*/
+.payment_data_container{
+    width: 330px;
+    text-align: left;
+    font-size: 12px;
+    color: #666173;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+.payment_data{
+    display: flex;
+    flex-direction: column;
+}
+.payment_data input, select, .payment_data_double_data input{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1.5px solid #F4F3F6;
+}
+.payment_data select, ::placeholder{
+    font-size: 16px;
+    color: #C9C5D4;
+}
+.payment_data option{
+    color: #151516;
+}
+.payment_data_double{
+    display: flex;
+    gap: 50px;
+}
+.payment_data_double_data{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CTA button*/
+.CTA{
+    width: 330px;
+    background-color: #191847;
+    border-radius: 25px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 0;
+}
+
+/* Payment plan section*/
+.payment_plan_section{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+}
+.payment_plan_section legend{
+    font-size: 20px;
+}
+.email{
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #F4F3F6;
+    margin-top: 12px;
+}
+/* Form payment_plan */
+.payment_plan_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 30px 0;
+}
+.payment_plan{
+    border: 1.5px solid #191847;
+    border-radius: 20px;
+    padding: 20px;
+    color: #191847;
+    font-size: 14px;
+    display: flex;
+    justify-content:space-between;
+}
+.payment_plan_description{
+    flex-basis: 250px;
+}
+.discount{
+    font-size: 12px;
+}
+.discount_percentage{
+    width: 40px;
+    background-color: #F5850B;
+    border-radius: 9px;
+    margin-left: 12px;
+    padding: 3px 10px;
+    color: white;
+    font-size: 10px;
+}
+.installments_data{
+    color: #F5850B;
+    font-size: 64%;
+}
+.help{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.help_CTA{
+    text-decoration: none;
+    color:#151516;
+}
+.help_img{
+    height: 16px;
+    width: 16px;
+    padding-left: 11px;
+}
+input[type='radio']{
+    appearance: none;
+    /* create custom appearance */
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    background-clip: content-box;
+    border: 2px solid #bbbbbb;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+input[type="radio"]:checked {
+    background-color:#191847;
+  }
